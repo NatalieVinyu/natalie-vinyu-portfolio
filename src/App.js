@@ -4,9 +4,9 @@ import './App.css';
 import Homepage from './components/homepage/homepage'
 import { Navbar } from './components/navbar/navbar'
 import { About } from './components/about/about'
-//import Card from './components/card/card'
-//import Contact from './components/contact/contact'
-//import Footer from './components/footer/footer'
+import { Services } from './components/services/services'
+import { Contact } from './components/contact/contact'
+import { Footer } from './components/footer/footer'
 
 function App() {
   return (
@@ -14,6 +14,9 @@ function App() {
       <Navbar />
       <Homepage />
       <About />
+      <Services />
+      <Contact />
+      <Footer />
     </Router>
     
     
