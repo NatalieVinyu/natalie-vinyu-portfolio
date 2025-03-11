@@ -3,17 +3,21 @@ import { BrowserRouter as Router } from 'react-router-dom';  // Import BrowserRo
 import './App.css';
 import Homepage from './components/homepage/homepage'
 import { Navbar } from './components/navbar/navbar'
-import { About } from './components/about/about'
+import { Va } from './components/va/va'
 import { Services } from './components/services/services' 
 import { Contact } from './components/contact/contact'
 import { Footer } from './components/footer/footer'
+import { Frontend } from './components/frontend/frontend'
+import { Projects } from './components/projects/projects'
 
 function App() {
   return (
     <Router>
       <Navbar />
       <Homepage />
-      <About />
+      <Frontend />
+      <Projects />
+      <Va />
       <Services />
       <Contact />
       <Footer />
