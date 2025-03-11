@@ -7,7 +7,7 @@ const homepage = () => {
         <div className='container'>
           <div class="grid grid-flow-col grid-rows-2 gap-4">
             <div class="row-span-3 ...">
-              <img src="/IMG_2575.jpeg" alt="Natalie Vinyu" className='rounded-lg shadow-lg w-80 max-w-sm' />
+              <img src='public/logo192.png' alt="Natalie Vinyu" className='' />
             </div>
 
             <div class="col-span-2 ...">
