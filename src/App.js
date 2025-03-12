@@ -22,9 +22,6 @@ function App() {
       <Contact />
       <Footer />
     </Router>
-    
-    
-
   );
 }
 
