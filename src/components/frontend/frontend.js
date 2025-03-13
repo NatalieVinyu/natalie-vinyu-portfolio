@@ -2,13 +2,13 @@
 
 export const Frontend = () => {
   return (
-    <div id='about' className='container mx-auto flex flex-col justify-between p-8 bg-grey-300'>
-    <div className='pt-16'>
-      <div class="">
-        <h1 className='text-5xl'>Front-end development</h1>
-        <br />
-        My journey into web development began out of sheer curiosity, which quickly grew into a full-fledged passion. I’ve spent countless hours honing my skills in HTML, CSS, JavaScript, and ReactJS, building everything from simple landing pages to dynamic, responsive web applications. I’m always eager to learn and embrace new challenges, and I thrive in environments where creativity meets technology. I’m excited to bring my self-driven, problem-solving mindset to new projects and collaborate with like-minded individuals to create impactful digital experiences.
-      </div>
+    <div id='about' className='container mx-auto flex flex-col justify-between p-8 '>
+      <div className='pt-16'>
+        <div class="bg-grey-300">
+          <h1 className='text-5xl'>Front-end development</h1>
+          <br />
+          My journey into web development began out of sheer curiosity, which quickly grew into a full-fledged passion. I’ve spent countless hours honing my skills in HTML, CSS, JavaScript, and ReactJS, building everything from simple landing pages to dynamic, responsive web applications. I’m always eager to learn and embrace new challenges, and I thrive in environments where creativity meets technology. I’m excited to bring my self-driven, problem-solving mindset to new projects and collaborate with like-minded individuals to create impactful digital experiences.
+        </div>
 
       <br />
 
