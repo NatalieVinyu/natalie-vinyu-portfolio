@@ -8,7 +8,7 @@ import { Services } from './components/services/services'
 import { Contact } from './components/contact/contact'
 import { Footer } from './components/footer/footer'
 import { Frontend } from './components/frontend/frontend'
-import { Projects } from './components/projects/projects'
+import { MyProjects } from './components/projects/myProjects'
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
       <Navbar />
       <Homepage />
       <Frontend />
-      <Projects />
+      <MyProjects />
       <Va />
       <Services />
       <Contact />
