@@ -3,7 +3,7 @@ import { Projects } from './projects';
 
 export const MyProjects = () => {
   return (
-    <div className="container mx-auto bg-cyan-300 flex">
+    <div className="mx-auto bg-cyan-300 flex">
       <div className="flex gap-8 m-8 justify-center">
       <Projects 
         title="Oh So Heavenly"
