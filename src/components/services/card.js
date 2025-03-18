@@ -4,7 +4,7 @@ import React from 'react';
 export const Card = ({ title, imageUrl, list }) => {
   return (
     <div className='container mx-auto'>
-      <div className='flex align-center items-center'>      
+      <div className='flex align-center items-center'>
         <div className='max-w-sm rounded overflow-hidden shadow-lg bg-white m-4 w-200 h-200'>        
             <div className='px-6 py-4'>
                 <div className='text-center font-bold text-4xl mb-2'>
