@@ -3,8 +3,8 @@ import { BrowserRouter as Router } from 'react-router-dom';  // Import BrowserRo
 import './App.css';
 import Homepage from './components/homepage/homepage'
 import { Navbar } from './components/navbar/navbar'
-import { Va } from './components/va/va'
-import { Services } from './components/services/services' 
+//import { Va } from './components/va/va'
+//import { Services } from './components/services/services' 
 import { Contact } from './components/contact/contact'
 import { Footer } from './components/footer/footer'
 import { Frontend } from './components/frontend/frontend'
@@ -17,8 +17,6 @@ function App() {
       <Homepage />
       <Frontend />
       <MyProjects />
-      <Va />
-      <Services />
       <Contact />
       <Footer />
     </Router>
